@@ -212,6 +212,7 @@ button:hover {
   flex-direction: column;
   gap: 1.4rem;
   padding: 8rem;
+  margin-top: -2rem;
 }
 .hero-section,
 .section-video {
@@ -220,3 +221,5 @@ button:hover {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+/* gift card */
