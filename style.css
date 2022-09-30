@@ -39,7 +39,7 @@ body {
 .heading-tertory {
   font-size: 3rem;
   line-height: 1.2;
-  margin-bottom: 3.2rem;
+  margin-bottom: 1.2rem;
 }
 .paragaph {
   font-size: 1rem;
@@ -71,6 +71,7 @@ button:hover {
   font-size: 1.2rem;
   font-weight: 600;
   margin-bottom: 1.5rem;
+  color: #f9f6ff;
 }
 
 /* *******
@@ -171,4 +172,24 @@ button:hover {
   top: 25rem;
 }
 
-/*  */
+/* About music */
+.section-about-music {
+  /* margin-top: 30rem;
+  display: grid;
+  place-items: center;
+  align-items: center; */
+}
+.about-music {
+  margin-top: 30rem;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+.about-music-text {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  /* gap: 1.4rem; */
+  padding: 0 8rem;
+  justify-content: center;
+}
