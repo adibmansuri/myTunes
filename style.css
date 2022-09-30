@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1.4;
+  font-weight: 400;
+  /* Only works if there is nothing absolutely positioned in relation to body */
+  overflow-x: hidden;
+}
+/* ************************ 
+*******Color**********
+*************************** */
+:root {
+  /* --purple500: black; */
+  --purple500: #281154;
+  /* --purple300: black; */
+  --purple300: #270082;
+  --purple600: #1b0058;
+  --red2: 600px #dc0000;
+  --body: #f9f6ff;
+}
+
+/* ************************ 
+*******Typography**********
+*************************** */
+.heading-primary {
+  font-size: 5.2rem;
+  line-height: 1.05;
+  margin-bottom: 3.2rem;
+}
+.heading-secondary {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+}
+.heading-tertory {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+}
+.paragaph {
+  font-size: 1rem;
+  line-height: 1.2;
+  margin-bottom: 2.2rem;
+}
+/* ************************ 
+*******Button**********
+*************************** */
+button {
+  border: none;
+  padding: 1.2rem 2.4rem;
+  transition: 0.2s ease-in-out;
+}
+button:hover {
+  transition: 0.2s ease-in-out;
+  opacity: 0.8;
+}
+
+.btn-primary {
+  background-color: red;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.btn-secondary {
+  background-color: var(--purple300);
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+/* *******
+    MyTunes
+ ********* */
+.header {
+  background-color: var(--purple300);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 4.8rem;
+  height: 4.6rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);
+}
+.logo {
+  text-decoration: none;
+  color: white;
+  font-weight: 5rem;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+}
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 2em;
+  transition: 0.2s ease-in-out;
+}
+.main-nav-list :hover {
+  box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.05);
+}
+.main-nav-link {
+  /* display: flex; */
+  /* padding: 0 1.8em; */
+  text-decoration: none;
+  color: white;
+}
+.hero-section {
+  background-image: url(img/hero_image.png);
+  height: 100vh;
+  /* width: 1vh; */
+  display: grid;
+  color: aliceblue;
+  place-items: center;
+  text-align: center;
+}
+.hero {
+  display: grid;
+}
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  padding: 8rem;
+}
+
+/* Music section */
+.section-music {
+  background-color: var(--purple500);
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+.music {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.music h2 {
+  margin-top: 3rem;
+}
+.music-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  padding: 0 8rem;
+  color: #f9f6ff;
+}
+.music-trial {
+  margin: 3rem 0 0 0;
+  color: #f9f6ff;
+}
+.music-trial p {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.ipad-iphone-img {
+  margin-top: -25rem;
+  position: relative;
+  top: 25rem;
+}
+
+/*  */
