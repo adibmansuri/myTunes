@@ -196,3 +196,20 @@ button:hover {
 .about-music-text p {
   margin-top: 1.6rem;
 }
+/* video section
+ */
+.section-video {
+  background-image: url(img/video.png);
+  height: 100vh;
+  /* width: 1vh; */
+  display: grid;
+  color: aliceblue;
+  place-items: center;
+  text-align: center;
+}
+.video-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  padding: 8rem;
+}
