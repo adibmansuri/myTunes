@@ -193,3 +193,6 @@ button:hover {
   padding: 0 8rem;
   justify-content: center;
 }
+.about-music-text p {
+  margin-top: 1.6rem;
+}
