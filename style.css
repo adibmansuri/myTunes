@@ -223,7 +223,7 @@ button:hover {
 }
 
 /* gift card */
-.gift-section {
+.gift-container {
   margin-top: 5rem;
   padding: 0 5rem;
 }
@@ -236,4 +236,6 @@ button:hover {
 .gift-img {
 }
 .gift-cont {
+  display: flex;
+  flex-direction: column;
 }
