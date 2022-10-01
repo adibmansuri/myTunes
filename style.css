@@ -239,3 +239,26 @@ button:hover {
   display: flex;
   flex-direction: column;
 }
+
+/* footer */
+.footer-upper {
+  background-color: var(--purple600);
+  padding: 3rem 5rem;
+  margin-top: 3rem;
+}
+.footer-upper {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+}
+.footer-links ul {
+  list-style: none;
+}
+.footer-links a {
+  color: white;
+  text-decoration: none;
+}
+.footer-lower {
+  color: white;
+  background-color: #fff;
+}
