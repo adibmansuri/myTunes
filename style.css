@@ -223,3 +223,17 @@ button:hover {
 }
 
 /* gift card */
+.gift-section {
+  margin-top: 5rem;
+  padding: 0 5rem;
+}
+.gift {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.gift-img {
+}
+.gift-cont {
+}
