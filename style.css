@@ -242,11 +242,10 @@ button:hover {
 
 /* footer */
 .footer-upper {
-  background-color: var(--purple600);
+  background-color: var(--purple500);
   padding: 3rem 5rem;
   margin-top: 3rem;
-}
-.footer-upper {
+  font-size: 1.5rem;
   display: flex;
   color: white;
   justify-content: space-between;
@@ -254,17 +253,30 @@ button:hover {
 }
 .footer-links ul {
   list-style: none;
+  padding-top: 0.8rem;
+}
+.footer-links li {
+  transition: 0.015s;
+}
+.footer-links li :hover {
+  opacity: 0.8;
 }
 .footer-links a {
   color: white;
   text-decoration: none;
 }
 .footer-links h4 {
-  color: white;
   font-weight: 4rem;
+  color: white;
+  padding-bottom: 0.8rem;
+  border-bottom: 2px solid white;
 }
 .footer-lower {
-  background-color: red;
+  background-color: var(--purple600);
+  font-size: 1.5rem;
+  padding: 1.5rem;
   color: white;
-  background-color: #fff;
+}
+.footer-lower p {
+  text-align: center;
 }
