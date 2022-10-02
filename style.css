@@ -250,6 +250,7 @@ button:hover {
   display: flex;
   color: white;
   justify-content: space-between;
+  padding: 4rem 8rem;
 }
 .footer-links ul {
   list-style: none;
@@ -258,7 +259,12 @@ button:hover {
   color: white;
   text-decoration: none;
 }
+.footer-links h4 {
+  color: white;
+  font-weight: 4rem;
+}
 .footer-lower {
+  background-color: red;
   color: white;
   background-color: #fff;
 }
